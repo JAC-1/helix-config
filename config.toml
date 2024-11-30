@@ -1,0 +1,23 @@
+theme = "horizon-dark"
+
+[editor]
+line-number = "relative"
+mouse = false
+true-color = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+
+# My remaps
+[keys.insert]
+j = { j = "normal_mode" } # Maps `jk` to exit insert mode
+
+[keys.normal]
+a = "move_char_left" # Maps the 'a' key to the move_char_left command
+";" = "command_mode"
